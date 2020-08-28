@@ -9,7 +9,7 @@ public class Agent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(unique = true, nullable = false)
+    @Column( nullable = false)
     private long agentcode;
 
     private String agentname;
