@@ -1,4 +1,4 @@
-package com.lambdaschool.orders;
+package com.lambdaschool.orders.models;
 
 
 import javax.persistence.*;
