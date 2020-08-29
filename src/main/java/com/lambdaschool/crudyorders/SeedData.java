@@ -1,6 +1,6 @@
-//package com.lambdaschool.orders;
+//package com.lambdaschool.crudyorders;
 //
-//import com.github.javafaker.Faker;
+////import com.github.javafaker.Faker;
 //import com.lambdaschool.crudyorders.models.Agent;
 //import com.lambdaschool.crudyorders.models.Customer;
 //import com.lambdaschool.crudyorders.models.Order;
@@ -13,11 +13,6 @@
 //import org.springframework.boot.CommandLineRunner;
 //import org.springframework.stereotype.Component;
 //import org.springframework.transaction.annotation.Transactional;
-//
-//import java.util.HashSet;
-//import java.util.Locale;
-//import java.util.Random;
-//import java.util.Set;
 //
 //
 //@Transactional
@@ -36,7 +31,7 @@
 //    private AgentsRepository agentrepos;
 //
 //    /**
-//     * Connects the orders table to this SeedData method
+//     * Connects the crudyorders table to this SeedData method
 //     */
 //    @Autowired
 //    private OrdersRepository ordersrepos;
