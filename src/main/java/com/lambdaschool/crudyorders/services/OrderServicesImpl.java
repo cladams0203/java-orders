@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 public class OrderServicesImpl implements OrderServices {
 
     @Autowired
-    OrdersRepository orderrepos;
+    OrdersRepository ordersrepos;
 
     @Override
     public Order save(Order order) {
-        return orderrepos.save(order);
+        return ordersrepos.save(order);
     }
 }
