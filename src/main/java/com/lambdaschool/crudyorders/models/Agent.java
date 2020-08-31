@@ -13,7 +13,6 @@ public class Agent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column( nullable = false)
     private long agentcode;
 
     private String agentname;
@@ -28,6 +27,7 @@ public class Agent {
 
     public Agent() {
     }
+
 
     public Agent(String agentname, String workingarea, double commission, String phone, String country) {
         this.agentname = agentname;
