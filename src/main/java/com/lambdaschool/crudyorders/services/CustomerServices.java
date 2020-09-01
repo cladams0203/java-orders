@@ -10,6 +10,8 @@ public interface CustomerServices {
 
     Customer findCustomerById(long id);
 
+    List<Customer> findAllCustomersByLikeName(String custname);
+
 
     Customer save(Customer customer);
 }

@@ -39,5 +39,8 @@ public class CustomerServicesImpl implements CustomerServices {
         return list;
     }
 
-
+    @Override
+    public List<Customer> findAllCustomersByLikeName(String custname) {
+        return custrepos.findByCustnameContainingIgnoringCase(custname);
+    }
 }
