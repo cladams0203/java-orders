@@ -12,6 +12,8 @@ public interface CustomerServices {
 
     List<Customer> findAllCustomersByLikeName(String custname);
 
+    Customer update(Customer customer, long id);
+
 
     Customer save(Customer customer);
 }
