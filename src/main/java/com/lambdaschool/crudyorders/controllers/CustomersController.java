@@ -67,4 +67,10 @@ public class CustomersController {
         customerServices.update(updateCustomer, customerid);
         return new ResponseEntity(HttpStatus.OK);
     }
+    //http://localhost:2019/customers/customer/:id
+    @DeleteMapping(value = "customer/{customerid}")
+    public ResponseEntity<?> deleteCustomer(@PathVariable long customerid){
+        customerServices.delete(customerid);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }
